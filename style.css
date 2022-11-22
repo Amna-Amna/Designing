@@ -63,6 +63,7 @@ h2 {
   /* SPACING SYSTEM */
   /* padding: 16px 32px; */
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -137,6 +138,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -158,7 +160,23 @@ img {
   line-height: 1.7;
 }
 
+/* IMAGES */
+
+img {
+  border-radius: 12px;
+}
+
 /* CHAIRS */
+.chair {
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .chair-box {
   padding: 24px;
 }
